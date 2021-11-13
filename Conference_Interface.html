@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Interface</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div id="body_content">
+    <div class="interface-panel">
+    <div class="top-panel">
+        Top panel
+    </div>
+    <div class="left-panel">
+        left panel
+        <br>
+        <iframe src="https://open.spotify.com/embed/track/3uwYgNxFDfx1GoLB6tLoUn" width="250" height="150" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+    <div class="mid-panel">
+        <canvas id="myCanvas" width="700" height="450" style="border:1px solid #d3d3d3;">
+            mid panel
+        </canvas>
+    </div>
+    <div class="right-panel">
+        right panel
+    </div>
+    <div class="bottom-panel">
+        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle class="camera" cx="25" cy="25" r="25" fill="#FF0000"/>
+            <path d="M5 18C5 12.4772 9.47715 8 15 8H35C40.5228 8 45 12.4772 45 18V33C45 38.5228 40.5228 43 35 43H15C9.47715 43 5 38.5228 5 33V18Z" fill="white"/>
+            <circle class="camera" cx="24.5" cy="25.5" r="12.5" fill="#FF0000"/>
+            <circle cx="24.5" cy="25.5" r="7.5" fill="white"/>
+            <circle class="camera" cx="39.5" cy="13.5" r="2.5" fill="#FF0000"/>
+            <rect class="camera" x="6" y="10.5967" width="5" height="48" transform="rotate(-46 6 10.5967)" fill="black"/>
+        </svg>
+        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle class="mic" cx="25" cy="25" r="25" fill="#FF0000"/>
+            <path d="M19 11.5C19 8.46243 21.4624 6 24.5 6V6C27.5376 6 30 8.46243 30 11.5V25.5C30 28.5376 27.5376 31 24.5 31V31C21.4624 31 19 28.5376 19 25.5V11.5Z" fill="white"/>
+            <path d="M25.0174 32.521H34.724L36.2294 27H43L38.7064 36.3294L25.0174 40L11.2936 36.3294L7 27H14.1009L17.2385 32.521H25.0174Z" fill="white"/>
+            <rect class="mic" x="9.0415" y="12.4757" width="5" height="40" transform="rotate(-46 9.0415 12.4757)" fill="black"/>
+        </svg>
+        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="25" cy="25" r="25" fill="#FF0000"/>
+            <path d="M27.4068 28.3974L31.1126 21.4094L29.5366 14.5002L33.9067 8.89746L38.0869 17.7173L36.3575 21.3211L34.6281 24.9249L31.1692 32.1325L24.0986 35.4543L20.5633 37.1152L17.0281 38.7761L7.90674 33.8975L13.7424 30.2943L20.5832 31.9389L27.4068 28.3974Z" fill="white"/>
+        </svg>
+    </div>
+    </div>
+</div>
+<br>
+Typing typing typing
+</body>
+</html>
